@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #2A303D;
+}
+/* common style */
+
+.color-1{
+    color: #AAB0BA;
+}
+
+/* navbar style start */
+.header-container{
+    background-color: #475569;
+}
+.navbar{
+    background-color: #475569;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    height: 60px;
+    padding: 0px 20px;
+}
+.logo h1{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.nav-item ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-item a{
+    color: #667485;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #1A1D24;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.menu-icon{
+    display: none;
+}
+/* navbar style end */
+
+/* main section start */
+/* banner section */
+.banner{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 20px;
+   max-width: 1300px;
+   margin: 20px auto;
+   padding: 20px;
+   border-radius: 8px;
+   background-color: #242933;
+}
+.banner-image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.banner-details h1{
+    font-size: 3rem;
+    color: #909cb6;
+}
+.banner-details p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #909cb6;
+}
+.btn-primary{
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background-color: #641DE5;
+    color: white;
+    height: 50px;
+}
+/* banner section ends */
+/* business summery starts */
+.business-summery{
+    max-width: 65%;
+    margin: 50px auto;
+    background-color: #475569;
+}
+.section-header{
+    color: #A82522;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card{
+    border: 2px solid #EAB30A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 25%;
+}
+.card-text{
+    width: 60%;
+}
+.card-img{
+    width: 40%;
+}
+.card h3{
+    font-weight: 600;
+}
+#span-1{
+    color: #FBBD24;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.card-img img{
+    width: 100%;
+}
+#border-2nd{
+    border: 2px solid #D932A9;
+}
+#span-2{
+    color: #D932A9;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+#border-3nd{
+    border: 2px solid #1FB2A6;
+}
+#span-3{
+    color: #1FB2A6;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+#border-4nd{
+    border: 2px solid #EF4444;
+}
+#span-4{
+    color: #EF4444;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+}
+/* business summery end */
+/* choice section starts */
+.choice{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.service-card-container{
+    display: flex;
+    gap: 20px;
+}
+.service-card-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.service-card-image{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #641DE5;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.service-card{
+    background-image: linear-gradient(195deg, rgb(74, 80, 91,0.5), rgb(114, 119, 128, 0.9) );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+}
+.service-title{
+    font-weight: 700;
+    color: #641DE5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#service-details{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #959CA8;
+}
+#service-card-2{
+    border: 3px solid #1FB2A6;
+}
+#service-card-title{
+    color: #1FB2A6;
+}
+#service-card-3{
+    border: 3px solid #D932A9;
+}
+#service-card-title-3{
+    color: #D932A9;
+}
+
+#service-card-4{
+    border: 3px solid #15A34A
+}
+#service-card-5{
+    color: #15A34A;
+}
+/* choice section ends */
+/* About us section start */
+.about-us{
+    max-width: 1300px;
+    margin: 50px auto;
+}
+.about-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.about-us-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.main-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.col-1, .col-2,.col-3, .col-4, .col-5 p{
+    color: #89909D;
+}
+.col-1 input, select, option{
+    margin-top: 3px;
+    border-color: #641DE5;
+    padding: 5px 20px;
+    background: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    width: 300px;
+    height: 50px;
+}
+.col-2 textarea{
+    margin-top: 3px;
+    border-color: #641DE5;
+    padding: 10px 20px;
+    background: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    color: #89909D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    margin-top: 10px;
+    text-align: end;
+}
+
+option{
+    background-color: #2A303D;
+    color: #89909D;
+}
+select{
+    color: #89909D;
+    font-weight: 800;
+}
+
+
+
+
+
+/* about us section ends */
+/* main section ends */
