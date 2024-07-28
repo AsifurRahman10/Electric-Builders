@@ -60,10 +60,13 @@
     .col-1 input, select{
        width: 175px;
     }
-   
-    
     textarea{
         width: 360px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
    
 }
@@ -117,6 +120,10 @@
         }
         .about-us-image{
             width: 70%;
+        }
+        .footer{
+            justify-content: left;
+            gap: 35px;
         }
 
 }

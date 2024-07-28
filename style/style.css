@@ -272,10 +272,59 @@ select{
     color: #89909D;
     font-weight: 800;
 }
-
-
-
-
-
 /* about us section ends */
 /* main section ends */
+/* Footer section start */
+.footer{
+    max-width: 100%;
+    display: flex;
+    background: #475569;
+    justify-content: space-around;
+    padding: 50px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+}
+.services-news h4{
+    color: #949CA8;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.services h4{
+    color: #949CA8;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.services a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+.services-news p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+.services-news input{   
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #2A303D;
+    color: #8B929E;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.services-news button{
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #FBBD24;
+    color: black;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+}
+/* footer section ends */
